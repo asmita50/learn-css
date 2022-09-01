@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(134, 115, 231);
+}
+.navbar {
+  background-color: rgba(241, 204, 15, 0.712);
+  border-radius: 20px;
+  height: 7vh;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+}
+.navbar li a {
+  padding: 3px 3px;
+  margin: 50px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  background-color: rgb(194, 233, 248);
+  border: 3px solid rgb(56, 54, 54);
+
+  padding: 34px;
+  margin: 10px 10px;
+  border-radius: 23px;
+  width: 333px;
+}
+
+/* footer */
+footer {
+  background-color: rgba(241, 204, 15, 0.712);
+  height: 5vh;
+  border-radius: 20px;
+}
+.center {
+  text-align: center;
+}
