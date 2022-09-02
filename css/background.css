@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(155, 234, 237);
+}
+.navbar {
+  background-color: rgb(32, 243, 250);
+  /* border-style: double; */
+  height: 7vh;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+}
+.navbar li a {
+  padding: 3px 3px;
+  margin: 50px 20px;
+  text-decoration: none;
+  color: rgb(243, 3, 3);
+}
+
+.container {
+  background-color: rgb(125, 236, 147);
+  /* border: 3px solid gray; */
+  padding: 34px;
+  margin: 10px 10px;
+  width: 333px;
+  border-style: inset;
+  float: left;
+}
+
+.section {
+  height: 550px;
+  width: 450px;
+  /* border: 2px solid; */
+  background-image: url("/image/solu1.jpg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+}
