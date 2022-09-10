@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(154, 244, 244);
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.logo {
+  width: 40px;
+  height: auto;
+  padding: 2px 10px;
+  color: azure;
+  font-size: larger;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  background-color: aquamarine;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+.navbar {
+  background-color: rgb(68, 77, 253);
+  /* border-style: double; */
+  height: 7vh;
+}
+.navbar ul {
+  overflow: auto;
+  float: right;
+  margin-right: 20px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+}
+.navbar li a {
+  padding: 3px 3px;
+  margin: 50px 20px;
+  text-decoration: none;
+  color: rgb(243, 235, 235);
+}
+
+.login-box {
+  width: 360px;
+  height: 270px;
+  margin: auto;
+  margin-left: 600px;
+  border-radius: 3px;
+  background-color: rgb(135, 28, 241);
+}
+
+.container {
+  background-color: rgb(131, 249, 88);
+  /* border: 3px solid gray; */
+  padding: 34px;
+  margin: 10px 10px;
+  width: 333px;
+  border-style: inset;
+  float: left;
+}
